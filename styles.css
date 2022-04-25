@@ -171,3 +171,14 @@
     padding: 5px;
     border-radius: 5px;
 }
+.footer {
+    background-color: #1F2937;
+    height: 72px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright {
+    justify-content: center;
+}
