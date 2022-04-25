@@ -1,16 +1,16 @@
-
-
 .header {
     background-color: #1F2937;
     display: flex;
     height: 72px;
+    margin-bottom: 0px;
 }
 .logo {
     display: flex;
     font-size: 32px;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center; 
     flex-grow: 1;
+    color: #f9faf8;
 }
 .button-bar {
     display: flex;
@@ -20,9 +20,47 @@
     align-items: center; 
 }
 .header-button {
-    background-color: whitesmoke;
+    color: #e5e7eb;
 }
 .hero {
-    height: 192px;
+    display: flex;
+    height: 360px;
     background-color: #1F2937;
+    padding: 40px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+        
+}
+.hero-text-title {
+   font-size: 48px;
+   font-weight: extra-bold;
+   color: #f9faf8;
+
+}
+.hero-text-text{
+    font-size: 18PX;
+    color: #e5e7eb;
+    
+}
+.hero-button{
+     border-radius: 5px;
+     align-self: flex-start;
+     background-color: #3882f6;
+     font-weight: bold;
+     color: #f9faf8;
+     padding: 3px;
+     
+}
+
+.hero-image {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
 }
