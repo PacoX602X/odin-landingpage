@@ -11,6 +11,7 @@
     align-items: center; 
     flex-grow: 1;
     color: #f9faf8;
+    padding: 10px;
 }
 .button-bar {
     display: flex;
@@ -55,8 +56,6 @@
      padding: 15px;
      width: 100px;
      text-align: center;
-     
-     
 }
 
 .hero-image {
@@ -65,5 +64,51 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    
+}
+
+.body2 {
+    display: flex;
+    border: 1px solid red;
+    height: 320px;
+    flex-direction: column;
+}
+
+.block-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.block-div{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: flex-end;
+    }
+
+.text-block-div {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.block {
+    border-radius: 7px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882f6;
+    margin-inline: 20px;
+}
+
+.text-block {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+    margin-inline: 20px;
 }
